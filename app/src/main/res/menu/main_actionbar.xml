@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_cart"
+        android:title="Library"
+        android:icon="@android:drawable/arrow_down_float"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/favorite"
+        android:title="favorite"
+        android:icon="@mipmap/favorite"
+        android:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_item_share"
+        android:icon="@mipmap/share"
+        android:title="share"
+        android:showAsAction="ifRoom"/>
+        <!--android:actionProviderClass="android.widget.ShareActionProvider"/>-->
+
+</menu>
